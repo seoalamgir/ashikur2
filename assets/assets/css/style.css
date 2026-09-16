@@ -1,0 +1,88 @@
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+rot{
+   :root {
+  --font-family: "Poppins", sans-serif;
+  --second-family: "PT Sans", sans-serif;
+}
+  --- text- color: #353535;
+  primary -color: #f8bc17;
+}
+/** common codes */
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+a{
+    text-decoration: none ; 
+}
+h1,h2,h3,h4,h5,h6,p,a,option,select,button,ul,li,ol,{
+    margin: 0;
+    padding: 0;
+}
+nav,ul,li{
+    list-style: none;
+}
+body{
+    font-family: ver(--font family)
+}
+/** common codes */
+
+nav,imgs{
+font-weight: 400;
+font-size: 28px;
+color: #353535;
+}
+
+.navbar {
+    padding: 20px 0;
+}
+
+.navbar-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    margin: 0 auto;
+}
+
+.nav-link {
+    color: #222;
+    font-size: 16px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.
+
+
+nav ul .nav -item.nav-link{
+font-weight: 400;
+font-size: 28px;
+color: #353535;
+}
+  nav ul.nav-item.nav-link.active,
+  nav ul.nav-item.nav-link.hover {
+    color-scheme: inherit;
+    
+  }
+  /* Hero section stat*/
+  #hero-section{
+    padding: 42px o;
+  }
+  #hero-section hero-section-left p{
+font-weight: 400;
+font-size: 24px;
+color: ver (--text color)
+
+  }
+  #hero -section.hero -section-right img{
+    width: 100%;
+  }
+
+
+
+
+  /* Hero section End*/
